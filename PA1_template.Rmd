@@ -8,10 +8,15 @@ output:
 
 ## Loading and preprocessing the data
 echo = TRUE
+
 setwd("D:/Users/sshong/Desktop/R working file/Course 5 Reproducible Research/Week2_Project1")
+
 unzip("repdata%2Fdata%2Factivity.zip")
+
 activity <- NULL
+
 activity <- read.csv("activity.csv",header = TRUE,sep = ",")
+
 head(activity)
 
 
